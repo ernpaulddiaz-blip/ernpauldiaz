@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Wear Styles</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="photo">
+    <img src="store.avif">
+
+    <div class="text">
+        <h1>👕 Clothing Wear Styles</h1>
+        <p>Style. Comfort. Confidence.</p>
+    </div>
+</div>
+<nav>
+    <a href="#about">About</a>
+    <a href="#card">Items</a>
+    <a href="#contact">Contact</a>
+</nav>
+    
+
+    <section id="about" class="content">
+        <h2>About</h2>
+        <p>
+            This page showcases different types of clothing for style and comfort.
+        </p>
+    </section>
+<section id="card" class="content">
+<div class="container">
+
+    <div class="card">
+        <img src="Tshirt.jpg">
+        <div class="card-content">
+            <h2>Tshirt</h2>
+            <p>Tshirt, jeans, and sneakers for everyday comfort.</p>
+            <p class="price">₱150</p> 
+            <button onclick="orderItem('Tshirt')">Order</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Jacket.jpg">
+        <div class="card-content">
+            <h2>Jacket</h2>
+            <p>Oversized hoodie, cargo pants, and stylish sneakers.</p>
+            <p class="price">₱339</p>
+            <button onclick="orderItem('Jacket')">Order</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Short.webp">
+        <div class="card-content">
+           <h2>Shorts</h2>
+           <p>Light and comfortable shorts for everyday wear.</p>
+           <p class="price">₱270</p>
+           <button onclick="orderItem('Shorts')">Order</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Pants.webp">
+        <div class="card-content">
+           <h2>Pants</h2>
+           <p>Comfortable and stylish pants that pair well with any outfit.</p>
+           <p class="price">₱280</p>
+           <button onclick="orderItem('Pants')">Order</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Sock.jpg">
+        <div class="card-content">
+           <h2>Socks</h2>
+           <p>Comfortable socks that keep your feet fresh all day.</p>
+           <p class="price">₱50</p>
+           <button onclick="orderItem('Slippers')">Order</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Slippers.webp">
+        <div class="card-content">
+            <h2>Slippers</h2>
+            <p>Comfortable slippers perfect for relaxing at home.</p>
+            <p class="price">₱133</p>
+            <button onclick="orderItem('Slippers')">Order</button>
+        </div>
+    </div>
+    </section>
+
+</div>
+
+<script>
+function orderItem(item) {
+    alert("You ordered: " + item);
+}
+</script>
+
+<footer>
+    <p>© 2026 Clothing Wear Guide</p>
+    <section id="contact" class="content">
+    <h2>Contact</h2>
+    <p>53 Gen. Kalentong St., Mandaluyong City, Metro Manila.</p>
+    <p>ernpauldiaz@gmai.com</p>
+    <p>09613960111</p>
+    </section>
+</footer>
+
+</body>
+</html>
